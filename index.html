@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DREAM MAKEUP</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>DREAM MAKEUP</h1>
+        <div class="cart">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart.png" alt="Carrito de compras">
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <div class="container">
+       
+        <div class="product-card">
+            <img src="https://www.maquillalia.com/images/productos/loreal-paris-labial-liquido-infaillible-le-matte-resistance-16h-300-sun-bathing-1-79095.jpeg" alt="Labial Mate">
+            <div class="product-info">
+                <h2 class="product-name">Labial Mate</h2>
+                <div class="product-price">C$ 250</div>
+            </div>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://blushbar.vtexassets.com/arquivos/ids/200080/773602648733_1.jpg?v=638240878965870000" alt="Paleta de Sombras">
+            <div class="product-info">
+                <h2 class="product-name">Paleta de Sombras</h2>
+                <div class="product-price">C$ 500</div>
+            </div>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61Kc4ddr2-L._AC_UL600_SR600,600_.jpg" alt="Delineador Líquido">
+            <div class="product-info">
+                <h2 class="product-name">Delineador Líquido</h2>
+                <div class="product-price">C$ 150</div>
+            </div>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//l/-/l-oreal-paris-infallible-32h-fresh-wear-foundation-spf25-225-30ml.jpg" alt="Base Líquida">
+            <div class="product-info">
+                <h2 class="product-name">Base Líquida</h2>
+                <div class="product-price">C$ 350</div>
+            </div>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.ebayimg.com/thumbs/images/g/4UQAAOSwQuVgR9Mi/s-l1200.jpg" alt="Brochas de Maquillaje">
+            <div class="product-info">
+                <h2 class="product-name">Brochas de Maquillaje</h2>
+                <div class="product-price">C$ 400</div>
+            </div>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.ebayimg.com/thumbs/images/g/D8YAAOSweQBZpXDr/s-l1200.jpg" alt="Esmaltes de Uñas">
+            <div class="product-info">
+                <h2 class="product-name">Esmaltes de Uñas</h2>
+                <div class="product-price">C$ 150</div>
+            </div>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/I/61vC6jMXsoL.jpg" alt="Corrector Facial">
+            <div class="product-info">
+                <h2 class="product-name">Corrector Facial</h2>
+                <div class="product-price">C$ 200</div>
+            </div>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://minimanicaragua.com/wp-content/uploads/2023/03/LOREAL-TELESCOPIC-LIFT--300x300.png" alt="Rímel">
+            <div class="product-info">
+                <h2 class="product-name">Rímel</h2>
+                <div class="product-price">C$ 180</div>
+            </div>
+            <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+
+    </div>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Carrito de compras</h2>
+            <ul id="cart-items"></ul>
+            <div class="total">
+                Total: <span id="cart-total">C$ 0</span>
+            </div>
+            <button id="checkout">Proceder al pago</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tienda DREAM MAKEUP - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
